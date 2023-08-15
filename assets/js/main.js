@@ -60,7 +60,7 @@ if (todoItems == null) {
 let addItem = () => {
     noTask.style.display = "none";  
     totalTodo = todoItems.length;
-    if (totalTodo >= 500) {
+    if (totalTodo >= 5) {
         alert("You have a lot of tasks on your plate, so focus on completing those first.")
     } else {
         let todoItems = JSON.parse(localStorage.getItem("todo"));
