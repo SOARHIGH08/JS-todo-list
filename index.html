@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <h1>TO DO LIST</h1>
+    
+        <form>
+            <div>
+                <label for="desc">Description:</label>
+                <input type="text" id="desc">
+            </div>
+            <div>
+                <label for="date">Date:</label>    
+                <input type="date" id="date">
+            </div>
+            <button type="button" id="addBut">Add Task</button>
+        </form>
+        
+        <ul id="todoList"></ul>
+        <p id="noTask">No task available</p>
+    </main>
+
+        <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>
